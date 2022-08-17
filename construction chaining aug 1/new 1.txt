@@ -1,5 +1,0 @@
-git add.
-git status-if you want  to  check
-git commit-m
-https://github.com/nageshkoppad/Folder.git
-https://github.com/nageshkoppad/Folder.git
