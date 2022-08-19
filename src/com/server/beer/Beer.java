@@ -6,5 +6,4 @@ public class Beer extends Alcohol {
 		super(type, brand, quantity);
 	}
 
-
 }

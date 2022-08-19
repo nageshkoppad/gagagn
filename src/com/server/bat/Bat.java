@@ -6,5 +6,4 @@ public class Bat extends Wooden {
 		super(from, plantname, usedFor);
 	}
 
-
 }

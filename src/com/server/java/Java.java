@@ -6,5 +6,4 @@ public class Java extends Progaramm {
 		super(name, lang, from);
 	}
 
-
 }

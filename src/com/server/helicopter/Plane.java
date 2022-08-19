@@ -17,6 +17,7 @@ public class Plane {
 	public void setWeight(double weight) {
 		this.weight = weight;
 	}
+
 	public void printData() {
 		System.out.println(this.name);
 		System.out.println(this.noOfWing);
@@ -24,8 +25,5 @@ public class Plane {
 		System.out.println(this.seat);
 		System.out.println(this.owner);
 	}
-     
 
-	}
-
-
+}

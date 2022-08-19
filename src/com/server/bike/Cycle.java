@@ -1,7 +1,6 @@
 package com.server.bike;
 
-public class Cycle
-{
+public class Cycle {
 	public String brand;
 	public String tyresBrand;
 	public double cost;
@@ -26,6 +25,3 @@ public class Cycle
 		System.out.println("The totalno of cycle is " + this.totalno);
 	}
 }
-
-
-	

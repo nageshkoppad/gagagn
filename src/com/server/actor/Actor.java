@@ -7,16 +7,15 @@ public class Actor {
 	public double height;
 	public int remundation;
 
-	public Actor(String name, String belongs,int remundation) {
+	public Actor(String name, String belongs, int remundation) {
 		this.name = name;
 		this.belongs = belongs;
 		this.remundation = remundation;
 		System.out.println("Constroctor with args");
 	}
 
-	public void setHeight(double height)
-	{
-		this.height=height;
+	public void setHeight(double height) {
+		this.height = height;
 	}
 
 	public void printData() {

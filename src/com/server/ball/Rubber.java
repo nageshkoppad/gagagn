@@ -13,7 +13,7 @@ public class Rubber {
 		this.from = from;
 		this.treeName = treeName;
 		this.color = color;
-	
+
 	}
 
 	public void setBrand(String brand) {

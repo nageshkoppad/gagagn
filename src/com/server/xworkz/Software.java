@@ -7,7 +7,6 @@ public class Software {
 		Xworkz xworkz = new Xworkz("Xworkz", "BTM", "java");
 		xworkz.setCost(23000);
 		xworkz.printData();
-
 	}
 
 }
