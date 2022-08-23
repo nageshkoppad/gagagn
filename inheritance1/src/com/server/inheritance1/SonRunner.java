@@ -7,6 +7,8 @@ public class SonRunner {
    Son son=new Son(22,"ganesh","beng");
    son.disply1();
    son.display();
+   
+   
 	}
 
 }
