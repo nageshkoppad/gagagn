@@ -8,7 +8,8 @@ public class SubClassRunner {
 
 	public static void main(String[] args) {
 		TestCricket test=new TestCricket("india","kohli","male","red");
-		test.getCountryName();
+	
+		System.out.println();
 		System.out.println(test.entertainment(true));
 		test.presentation(1000000000d);
 		System.out.println(test.presentation(1000000000d));

@@ -9,12 +9,12 @@ public class TestCricket extends Cricket {
 	}
 	public void setCountryName(String countryName)
 	{
-		
+		this.countryName=countryName;
 		
 	}
 	public String getCountryName()
 	{
-		return super.countryName;
+		return countryName;
 	}
 	@Override
 	public double presentation(double price)
