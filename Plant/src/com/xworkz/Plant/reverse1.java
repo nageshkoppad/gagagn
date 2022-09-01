@@ -1,17 +1,17 @@
 package com.xworkz.Plant;
 
-public class Array {
+public class reverse1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String str = "Hello world";
-		  String revString = "";
+		String str = "Hello world good morning";
+		  String name = "";
 
 		  for (int i = str.length() - 1; i >= 0; --i) {
-		   revString += str.charAt(i);
+		   name += str.charAt(i);     
 		  }
 
-		  System.out.println(revString);
+		  System.out.println(name);
     
 	}
 
