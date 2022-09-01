@@ -1,13 +1,13 @@
 package com.sever.dell.base;
 
 public class CricketDto {
-	public String country;
-	public int noPlayer;
-	public String captain;
-	public String place;
-	public String viceCaptin;
-	public boolean forEntertainment;
-	public int noWins;
+	private String country;
+	private int noPlayer;
+	private String captain;
+	private String place;
+	private String viceCaptin;
+	private boolean forEntertainment;
+	private int noWins;
 	public CricketDto(String country, int noPlayer, String captain, String place, String viceCaptin,
 			boolean forEntertainment, int noWins) {
 		this.country = country;
@@ -25,6 +25,52 @@ public class CricketDto {
 				+ ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()=" + super.toString()
 				+ "]";
 	}
+	public CricketDto() {
+		
+	}
+	public String getCountry() {
+		return country;
+	}
+	public void setCountry(String country) {
+		this.country = country;
+	}
+	public int getNoPlayer() {
+		return noPlayer;
+	}
+	public void setNoPlayer(int noPlayer) {
+		this.noPlayer = noPlayer;
+	}
+	public void setCaptain(String captain) {
+		this.captain = captain;
+	}
+	public String getCaptain() {
+		return this.captain;
+	}
+	public String getPlace() {
+		return place;
+	}
+	public void setPlace(String place) {
+		this.place = place;
+	}
+	public String getViceCaptin() {
+		return viceCaptin;
+	}
+	public void setViceCaptin(String viceCaptin) {
+		this.viceCaptin = viceCaptin;
+	}
+	public boolean isForEntertainment() {
+		return forEntertainment;
+	}
+	public void setForEntertainment(boolean forEntertainment) {
+		this.forEntertainment = forEntertainment;
+	}
+	public int getNoWins() {
+		return noWins;
+	}
+	public void setNoWins(int noWins) {
+		this.noWins = noWins;
+	}
+	
 	
 	
 }
