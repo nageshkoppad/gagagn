@@ -6,7 +6,8 @@ public interface PersonDetailsService {
 	boolean ValidateAndSave(PersonDetailsDTO dto);
 	void displayAll();
 	void displayAllAgeGreaterThanOrderByName();
-	void displayAllBySalaryGreateThanOrderByDesc();
+	void displayAllByGenderDescOrderByName();
+	void displayAllBySalaryGreaterThanOrderByDesc();
 	void count();
 	void displaySumOfSalary();
 }

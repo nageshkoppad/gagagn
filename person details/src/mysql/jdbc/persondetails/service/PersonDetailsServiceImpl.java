@@ -79,8 +79,8 @@ public class PersonDetailsServiceImpl implements PersonDetailsService {
 																			System.out.println("bank number is valid");
 																			System.out.println("all data looks good proceed to save all the data of person! )-");
 																		    System.out.println(dto);
-																			//PersonDetailsRepositoryImpl repository=new PersonDetailsRepositoryImpl();
-																		     // repository.save(dto);
+																			PersonDetailsRepositoryImpl repository=new PersonDetailsRepositoryImpl();
+																		    //repository.save(dto);
 																			
 																		}else {
 																			System.out.println("bank number is invalid");
@@ -154,22 +154,25 @@ public class PersonDetailsServiceImpl implements PersonDetailsService {
 	@Override
 	public void displayAllAgeGreaterThanOrderByName() {
 		// TODO Auto-generated method stub
-		this.repository.displayAllAgeGreaterThanOrderByName(23);
+		this.repository.displayAllAgeGreaterThanOrderByName(24);
 		
 	}
 	@Override
-	public void displayAllBySalaryGreateThanOrderByDesc() {
-		// TODO Auto-generated method stub
+	public void displayAllByGenderDescOrderByName() {
+	    this.repository.displayAllByGenderOrderByName("male");
+	}
+	@Override
+	public void displayAllBySalaryGreaterThanOrderByDesc() {
+		this.repository.displayAllBySalaryGreateThanOrderByDesc(25000);
 		
 	}
 	@Override
 	public void count() {
-		// TODO Auto-generated method stub
-		
+		this.repository.count();
 	}
 	@Override
 	public void displaySumOfSalary() {
-		// TODO Auto-generated method stub
+		this.repository.displaySumOfSalary();
 		
 	}
 	

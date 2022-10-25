@@ -33,59 +33,61 @@ public class Tester {
 		PersonDetailsDTO dto8=new PersonDetailsDTO(35,"guru","guru12445@gmail.com",5214150135l,"male","m.tech","unmarried","tester","microsoft",40000,27,5,"indi","bhijapur","karnataka","india",15545451125312l,442233222788l,"alive",0000005555525545l);
 	    impl.ValidateAndSave(dto8);
 
-		PersonDetailsDTO dto9=new PersonDetailsDTO(1,"sahana","sahana12445@gmail.com",5484150135l,"female","Engineering","unmarried","software developer","infosys",200000,22,1,"gokak","Belgaum","karnataka","india",1461241125312l,22222222788l,"alive",0000005555525545l);
+		PersonDetailsDTO dto9=new PersonDetailsDTO(1,"sahana","sahana12445@gmail.com",5484150135l,"female","Engineering","unmarried","Software testing & quality assurance","infosys",200000,22,1,"gokak","Belgaum","karnataka","india",1461241125312l,22222222788l,"alive",0000005555525545l);
 	    impl.ValidateAndSave(dto9);
 
-		PersonDetailsDTO dto10=new PersonDetailsDTO(1,"sahana","sahana12445@gmail.com",5484150135l,"female","Engineering","unmarried","software developer","infosys",200000,22,1,"gokak","Belgaum","karnataka","india",1461241125312l,22222222788l,"alive",0000005555525545l);
+		PersonDetailsDTO dto10=new PersonDetailsDTO(1,"prerana","prerana12445@gmail.com",215542135l,"female","Engineering","unmarried","software developer","HCL Technologies",42000,26,4,"bang","bang","karnataka","india",2587425312l,2514252222788l,"alive",232145005555525545l);
 	    impl.ValidateAndSave(dto10);
 
-		PersonDetailsDTO dto11=new PersonDetailsDTO(1,"sahana","sahana12445@gmail.com",5484150135l,"female","Engineering","unmarried","software developer","infosys",200000,22,1,"gokak","Belgaum","karnataka","india",1461241125312l,22222222788l,"alive",0000005555525545l);
+		PersonDetailsDTO dto11=new PersonDetailsDTO(1,"darshan","challanging12445@gmail.com",5482514135l,"male","mteck","married","Ms Office.","Tech Mahindra	",150000,32,7,"gokak","Belgaum","karnataka","india",1461241125312l,22222222788l,"alive",0000005555525545l);
 	    impl.ValidateAndSave(dto11);
 
-		PersonDetailsDTO dto12=new PersonDetailsDTO(1,"sahana","sahana12445@gmail.com",5484150135l,"female","Engineering","unmarried","software developer","infosys",200000,22,1,"gokak","Belgaum","karnataka","india",1461241125312l,22222222788l,"alive",0000005555525545l);
+	    PersonDetailsDTO dto198=new PersonDetailsDTO(1,"sahana","sahana12445@gmail.com",5542150135l,"female","Engineering","unmarried","Web developers","Larsen & Toubro Infotech",200000,22,1,"mang","mang","karnataka","india",1461241125312l,22222222788l,"alive",0000005555525545l);
+	    impl.ValidateAndSave(dto198);
+	    
+		PersonDetailsDTO dto12=new PersonDetailsDTO(1,"yash","Rockin2445@gmail.com",54841554825l,"male","Engineering","unmarried","IT coordinator","Securiteam",200000,33,8,"haveri","haveri","karnataka","india",1461241125312l,22222222788l,"alive",0000005555525545l);
 	    impl.ValidateAndSave(dto12);
 
-		PersonDetailsDTO dto13=new PersonDetailsDTO(1,"sahana","sahana12445@gmail.com",5484150135l,"female","Engineering","unmarried","software developer","infosys",200000,22,1,"gokak","Belgaum","karnataka","india",1461241125312l,22222222788l,"alive",0000005555525545l);
+		PersonDetailsDTO dto13=new PersonDetailsDTO(1,"ganesh","golden12445@gmail.com",5412250135l,"male","Engineering","unmarried","System Analysts","Microsoft Corporation",200000,31,6,"gokak","Belgaum","karnataka","india",1461241125312l,22222222788l,"alive",0000005555525545l);
 	    impl.ValidateAndSave(dto13);
 
-		PersonDetailsDTO dto14=new PersonDetailsDTO(1,"sahana","sahana12445@gmail.com",5484150135l,"female","Engineering","unmarried","software developer","infosys",200000,22,1,"gokak","Belgaum","karnataka","india",1461241125312l,22222222788l,"alive",0000005555525545l);
+		PersonDetailsDTO dto14=new PersonDetailsDTO(1,"upendra","upendra12445@gmail.com",5484150135l,"male","Engineering","unmarried","software developer","IBM",200000,22,1,"gokak","Belgaum","karnataka","india",1461241125312l,22222222788l,"alive",0000005555525545l);
 	    impl.ValidateAndSave(dto14);
 
-		PersonDetailsDTO dto15=new PersonDetailsDTO(1,"sahana","sahana12445@gmail.com",5484150135l,"female","Engineering","unmarried","software developer","infosys",200000,22,1,"gokak","Belgaum","karnataka","india",1461241125312l,22222222788l,"alive",0000005555525545l);
+	    PersonDetailsDTO dto170=new PersonDetailsDTO(1,"sahana","sahana12445@gmail.com",5484150135l,"female","Engineering","unmarried","Solutions architect","Accenture",200000,24,3,"hubli","hubli","karnataka","india",1461241125312l,22222222788l,"alive",0000005555525545l);
+	    impl.ValidateAndSave(dto170);
+	    
+		PersonDetailsDTO dto15=new PersonDetailsDTO(1,"rachita","dimplequeen12445@gmail.com",5484150135l,"female","Engineering","unmarried","software developer developer developer","infosys",200000,22,1,"bellary","Bellary","karnataka","india",1461241125312l,22222222788l,"alive",0000005555525545l);
 	    impl.ValidateAndSave(dto15);
 
-		PersonDetailsDTO dto16=new PersonDetailsDTO(1,"sahana","sahana12445@gmail.com",5484150135l,"female","Engineering","unmarried","software developer","infosys",200000,22,1,"gokak","Belgaum","karnataka","india",1461241125312l,22222222788l,"alive",0000005555525545l);
+		PersonDetailsDTO dto16=new PersonDetailsDTO(1,"sahana","sahana12445@gmail.com",5484150135l,"female","Engineering","unmarried","Cloud infrastructure architect","DXC",200000,27,5,"bhidar","bhidar","karnataka","india",1461241125312l,22222222788l,"alive",0000005555525545l);
 	    impl.ValidateAndSave(dto16);
 
-		PersonDetailsDTO dto17=new PersonDetailsDTO(1,"sahana","sahana12445@gmail.com",5484150135l,"female","Engineering","unmarried","software developer","infosys",200000,22,1,"gokak","Belgaum","karnataka","india",1461241125312l,22222222788l,"alive",0000005555525545l);
+		PersonDetailsDTO dto17=new PersonDetailsDTO(1,"dhananjay","dollysahana12445@gmail.com",5484150135l,"male","Engineering","unmarried","Wireless network engineer","infosys",200000,22,1,"gokak","Belgaum","karnataka","india",1461241125312l,22222222788l,"alive",0000005555525545l);
 	    impl.ValidateAndSave(dto17);
 
-		PersonDetailsDTO dto18=new PersonDetailsDTO(1,"sahana","sahana12445@gmail.com",5484150135l,"female","Engineering","unmarried","software developer","infosys",200000,22,1,"gokak","Belgaum","karnataka","india",1461241125312l,22222222788l,"alive",0000005555525545l);
+	    PersonDetailsDTO dto190=new PersonDetailsDTO(1,"sahana","sahana12445@gmail.com",5484150135l,"female","Engineering","unmarried","software developer","SAP",200000,28,6,"gokak","Belgaum","karnataka","india",1461241125312l,22222222788l,"alive",0000005555525545l);
+	    impl.ValidateAndSave(dto190);
+	    
+		PersonDetailsDTO dto18=new PersonDetailsDTO(1,"prerana","prerana12445@gmail.com",5484150135l,"female","Engineering","unmarried","Solutions architect","infosys",200000,29,7,"bellary","Ballary","karnataka","india",1461241125312l,22222222788l,"alive",0000005555525545l);
 	    impl.ValidateAndSave(dto18);
 
-		PersonDetailsDTO dto19=new PersonDetailsDTO(1,"sahana","sahana12445@gmail.com",5484150135l,"female","Engineering","unmarried","software developer","infosys",200000,22,1,"gokak","Belgaum","karnataka","india",1461241125312l,22222222788l,"alive",0000005555525545l);
+		PersonDetailsDTO dto19=new PersonDetailsDTO(1,"sahana","sahana12445@gmail.com",5484150135l,"female","Engineering","unmarried","software developer","Accenture",200000,23,2,"gokak","Belgaum","karnataka","india",1461241125312l,22222222788l,"alive",0000005555525545l);
 	    impl.ValidateAndSave(dto19);
 
-		PersonDetailsDTO dto20=new PersonDetailsDTO(1,"sahana","sahana12445@gmail.com",5484150135l,"female","Engineering","unmarried","software developer","infosys",200000,22,1,"gokak","Belgaum","karnataka","india",1461241125312l,22222222788l,"alive",0000005555525545l);
-	    impl.ValidateAndSave(dto20);
+	    PersonDetailsDTO dto130=new PersonDetailsDTO(1,"ganesh","golden12445@gmail.com",5484150135l,"male","Engineering","unmarried","Enterprise architect","infosys",70000,28,3,"Mysore","Mysore","karnataka","india",1461241125312l,22222222788l,"alive",0000005555525545l);
+	    impl.ValidateAndSave(dto130);
 
-		PersonDetailsDTO dto21=new PersonDetailsDTO(1,"sahana","sahana12445@gmail.com",5484150135l,"female","Engineering","unmarried","software developer","infosys",200000,22,1,"gokak","Belgaum","karnataka","india",1461241125312l,22222222788l,"alive",0000005555525545l);
+		PersonDetailsDTO dto21=new PersonDetailsDTO(1,"sahana","sahana12445@gmail.com",5484150135l,"female","Engineering","unmarried","software developer","infosys",50000,35,12,"gokak","Belgaum","karnataka","india",1461241125312l,25522522788l,"alive",025221555525545l);
 	    impl.ValidateAndSave(dto21);
 
-		PersonDetailsDTO dto22=new PersonDetailsDTO(1,"sahana","sahana12445@gmail.com",5484150135l,"female","Engineering","unmarried","software developer","infosys",200000,22,1,"gokak","Belgaum","karnataka","india",1461241125312l,22222222788l,"alive",0000005555525545l);
-	    impl.ValidateAndSave(dto22);
+	    PersonDetailsDTO dto111=new PersonDetailsDTO(1,"darshan","challanging12445@gmail.com",5482514135l,"male","mteck","married","software developer","TCS",152000,32,7,"gokak","Belgaum","karnataka","india",1461241125312l,22222222788l,"alive",0157005555525545l);
+	    impl.ValidateAndSave(dto111);
 
-		PersonDetailsDTO dto23=new PersonDetailsDTO(1,"sahana","sahana12445@gmail.com",5484150135l,"female","Engineering","unmarried","software developer","infosys",200000,22,1,"gokak","Belgaum","karnataka","india",1461241125312l,22222222788l,"alive",0000005555525545l);
+		PersonDetailsDTO dto23=new PersonDetailsDTO(1,"sahana","sahana12445@gmail.com",5484150135l,"female","Engineering","unmarried","Technical architect","Oracle",100000,24,3,"Kalaburagi","Kalaburagi","karnataka","india",11544041125312l,220052422788l,"alive",0054520005555525545l);
 	    impl.ValidateAndSave(dto23);
 
-		PersonDetailsDTO dto24=new PersonDetailsDTO(1,"sahana","sahana12445@gmail.com",5484150135l,"female","Engineering","unmarried","software developer","infosys",200000,22,1,"gokak","Belgaum","karnataka","india",1461241125312l,22222222788l,"alive",0000005555525545l);
-	    impl.ValidateAndSave(dto24);
-
-		PersonDetailsDTO dto25=new PersonDetailsDTO(1,"sahana","sahana12445@gmail.com",5484150135l,"female","Engineering","unmarried","software developer","infosys",200000,22,1,"gokak","Belgaum","karnataka","india",1461241125312l,22222222788l,"alive",0000005555525545l);
-	    impl.ValidateAndSave(dto25);
 		
-		
-
 	}
 
 }
