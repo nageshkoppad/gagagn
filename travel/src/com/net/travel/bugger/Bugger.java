@@ -17,8 +17,8 @@ public class Bugger {
 		System.out.println("bangalore");
 		ok.validation("mysore");
 		ok.validation("humpi");
-		ok.validation("gokak");
-		ok.validation("huuu");
+		ok.validation("go");
+		ok.validation("huugyydfgouhgdf");
 		ok.validation("mangalore");
 		ok.validation("karnataka");
 		ok.validation("india");

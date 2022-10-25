@@ -11,6 +11,7 @@ Enter name: &nbsp;<input type="text" id="name" name="name"> &nbsp;
 Enter email: &nbsp;<input type="email" placeholder="email" id="email" name="email"> &nbsp;
 Enter No: &nbsp;<input type="number" id="num" name="num">
 alternate No<input type="number" id="num1" name="num1">
+<br>
 <fieldset>
     <legend>Select a Gender:</legend>
 
@@ -31,6 +32,7 @@ alternate No<input type="number" id="num1" name="num1">
     </div>
 </fieldset>
 <fieldset>
+<br>
 <legend>select the Qulification</legend>
 <select name="one" id="one" >
     <option selected="selected">btech</option>
@@ -38,12 +40,15 @@ alternate No<input type="number" id="num1" name="num1">
     <option selected="selected">Mtech</option>
 </select>
 </fieldset>
+<br>
 <fieldset>
 <legend>select year of pass</legend>
 <select name="two" id="two" >
     <option selected="selected">2021</option>
     <option selected="selected">2022</option>
 </select>
+</fieldset>
+<br>
 <fieldset>
 <legend>select the university</legend>
 <select name="huli" id="huli" >
@@ -51,10 +56,16 @@ alternate No<input type="number" id="num1" name="num1">
     <option selected="selected">Automobile</option>
 </select>
 </fieldset>
+<br>
+<fieldset>
+<legend>Type adress</legend>
 <textarea id="three" name="three" rows="5" cols="20"></textarea>
+</fieldset>
+<br>
+}
 <div class="checkboxlist"  id="skills" name="skills">
   <input type="checkbox" name="skills" value="Programming/Application Development" class="chk">&nbsp;Programming/Application Development&emsp;
-  <input type="checkbox" name="skills" value="Project Management" class="chk">&nbsp;Project Management&emsp;<br>
+  <input type="checkbox" name="skills" value="Project Management" class="chk">&nbsp;Project Management&emsp;<br></option>
   <input type="checkbox" name="skills" value="Helpdesk/Technical Support" class="chk">&nbsp;Helpdesk/ Technical Support&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;
   <input type="checkbox" name="skills" value="Security/Compliance Governance" class="chk">&nbsp;Security/ Compliance Governance&emsp;<br>
   <input type="checkbox" name="skills" value="Web Development" class="chk">&nbsp;Web Development&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;
@@ -64,8 +75,10 @@ alternate No<input type="number" id="num1" name="num1">
   <input type="checkbox" name="skills" value="Networking" class="chk">&nbsp;Networking&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;
   <input type="checkbox" name="skills" value="Big Data" class="chk">&nbsp;Big Data&emsp;<br>          
  </div>
- 
+ <span class="error_form" id="skills_error_message"></span>
+ <br>
  Expected Salary<input text="number" id="num3" name="num3">
+ <br>
  <fieldset>
 <legend>Total experiance</legend>
 <select name="back" id="back" >
@@ -77,6 +90,7 @@ alternate No<input type="number" id="num1" name="num1">
     <option selected="selected">5</option>
 </select>
 </fieldset>
+<br>
 <fieldset>
 <legend>Id proof</legend>
 <select name="man" id="man" >
@@ -84,7 +98,10 @@ alternate No<input type="number" id="num1" name="num1">
     <option selected="selected">Adharcard</option>
 </select>
 </fieldset>
+<br>
 Id Proof Number<input type="number" id="card" name="card">
+<br>
+<br>
 <input type="submit" value="click">
 </form>
 </body>

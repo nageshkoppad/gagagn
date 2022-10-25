@@ -10,9 +10,7 @@ public class Runner {
 	
          HospitalDTO dto=new HospitalDTO(10,"jhgffccfc","cxddrdggff",2020,"ggfytfytc");
          HospitalServiceImpl many=new HospitalServiceImpl();
-         many.validateAndSave(dto);
-     
-         
+         many.validateAndSave(dto);      
 	}
 
 }

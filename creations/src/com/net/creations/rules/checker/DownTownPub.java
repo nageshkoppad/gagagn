@@ -14,7 +14,7 @@ boolean valid=	this.rule.validProf();
 int age=	this.rule.age();
 boolean followed=	this.rule.dressCodeFollowed();
 	
-if(valid && followed && age>21) {
+if(valid || followed || age==21) {
 	System.out.println("they are following");
 }else {
 	System.out.println("they are not following");

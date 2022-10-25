@@ -1,17 +1,12 @@
 package com.net.dto;
 
+import com.net.dto.baseclass.Red;
+
 public class RedRunner {
 
-	public static void main(String[] args) {
-		package com.xworkz.dto.runner;
-
-		import com.xworkz.dto.BikeShowroomDTO;
-
-		public class BikeShowroomDTORunner {
-
-			public static void main(String[] args) {
-
-				BikeShowroomDTO bsk1= new BikeShowroomDTO();
+	public static void main(String[] args) 
+	{
+				Red bsk1= new Red();
 				System.out.println(bsk1.hashCode());
 				bsk1.setShowRoomName("HONDA");
 				bsk1.setShowRoomFounder("Kamalesh");
@@ -64,11 +59,6 @@ public class RedRunner {
 				
 				bsk1.equals(bsk2);
 				
-				
-			}
-
-		}
-
 	}
 
 }

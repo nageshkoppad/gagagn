@@ -35,6 +35,7 @@ public class ResumeServlet extends HttpServlet {
 		String name15=req.getParameter("num3");
 		String name8=req.getParameter("man");
 		String name7=req.getParameter("card");
+	
 		System.out.println("Name is:"+name1);
 		System.out.println("Email is:"+cap);
 		System.out.println("Phone no is:"+save);
@@ -49,6 +50,7 @@ public class ResumeServlet extends HttpServlet {
 		System.out.println("expected salary:"+name15);
 		System.out.println("select id  proofs"+name8);
 		System.out.println("id proof no is:"+name7);
+		
 		
 	resp.setContentType("text/html");
 	PrintWriter writer=resp.getWriter();

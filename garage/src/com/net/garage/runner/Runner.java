@@ -7,9 +7,8 @@ public class Runner {
 
 	public static void main(String[] args) {
 	
-		GarageDTO dto=new GarageDTO(1000,"vinayak","vinay",2021,2500);
+		GarageDTO dto=new GarageDTO(-1000,"vinayak","vinay",2500,2021);
 		GarageServiceImpl store=new GarageServiceImpl();
 		store.validateAndSave(dto);
 	}
-
 }

@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet(loadOnStartup=1,urlPatterns ={"/red","/show details"})
+@WebServlet(loadOnStartup=1,urlPatterns ={"/red","/show Details"})
 public class CompanyServlet extends HttpServlet {
 
 	ArrayList<CompanyDTO> list=new ArrayList<>();
@@ -52,7 +52,7 @@ public class CompanyServlet extends HttpServlet {
 		System.out.println(list);
 	}
 	@Override
-	public void doPost(HttpServletRequest req, HttpServletResponse resp)throws ServletException, IOException{
+	public void doGet(HttpServletRequest req, HttpServletResponse resp)throws ServletException, IOException{
 		System.out.println("running the do get method");
 		resp.setContentType("text/html");
 		PrintWriter writer = resp.getWriter();

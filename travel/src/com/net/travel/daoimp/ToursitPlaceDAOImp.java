@@ -4,7 +4,7 @@ import com.net.travel.dao.TousistPlaceDAO;
 
 public class ToursitPlaceDAOImp implements TousistPlaceDAO {
 
-	private String[] dataStore=new String[4];
+	private String[] dataStore=new String[10];
 	public int index;
 	@Override
 	public boolean save(String places) {

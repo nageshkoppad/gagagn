@@ -13,13 +13,14 @@ public class CustomerRules implements PubRule {
 	@Override
 	public int age() {
 		// TODO Auto-generated method stub
+		System.out.println();
 		return 22;
 	}
 
 	@Override
 	public boolean validProf() {
 		// TODO Auto-generated method stub
-		return true;
+		return false;
 	}
 
 }
